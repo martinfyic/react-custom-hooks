@@ -24,7 +24,6 @@ import { useState } from 'react';
 // };
 
 //** Podemos utilizar estas funciones a modo de logica, ejemplo, si queremos que nuestras compras sean 2x1, es decir que al comprar se cargue 2, debemos hacer que el contador sume de a dos, para eso debemos mandar por parametro como muestro en el ejemplo abajo */
-
 export const useCounter = (inicialValue = 10) => {
 	const [counter, setCounter] = useState(inicialValue);
 
